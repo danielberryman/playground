@@ -1,0 +1,27 @@
+.circle {
+    border-radius: 50%;
+    position: relative;
+    width: 60%;
+    height: 0;
+    padding-bottom: 60%;
+    margin: 10px auto;
+    background: rgb(6,7,180);
+    background: linear-gradient(0deg, rgba(6,7,180,1) 0%, rgba(62,108,212,1) 30%, rgba(242,242,242,1) 81%);
+    animation-duration: 5s;
+    animation-name: waves;
+    animation-iteration-count: infinite;
+}
+
+@keyframes waves {
+    from {
+        opacity: 30%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 30%;
+    }
+}
